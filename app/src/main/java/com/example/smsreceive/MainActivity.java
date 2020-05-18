@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         txt = (TextView) findViewById(R.id.txt);
         btn = (Button) findViewById(R.id.btn);
+        Toast.makeText(this, "ezafe shodane toast", Toast.LENGTH_SHORT).show();
 
 
         //private boolean show = true; balaye bala inam bezan
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         handler.post(runnable);
+
 
 
 
